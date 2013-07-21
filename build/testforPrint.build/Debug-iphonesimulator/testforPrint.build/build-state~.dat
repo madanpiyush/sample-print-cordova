@@ -1,0 +1,634 @@
+TtestforPrint
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Info.plist testforPrint/testforPrint-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Script-304B58A110DAC018002A0835.sh
+cCpResource testforPrint/config.xml build/testforPrint.app/config.xml
+cCpResource testforPrint/Resources/icons/icon-72.png build/testforPrint.app/icon-72.png
+cCpResource testforPrint/Resources/icons/icon.png build/testforPrint.app/icon.png
+cCpResource testforPrint/Resources/icons/icon@2x.png build/testforPrint.app/icon@2x.png
+cCpResource testforPrint/Resources/Capture.bundle build/testforPrint.app/Capture.bundle
+cCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/en.lproj/Localizable.strings testforPrint/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/es.lproj/Localizable.strings testforPrint/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.xib
+cCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/de.lproj/Localizable.strings testforPrint/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/se.lproj/Localizable.strings testforPrint/Resources/se.lproj/Localizable.strings
+cCpResource testforPrint/Resources/splash/Default-Landscape@2x~ipad.png build/testforPrint.app/Default-Landscape@2x~ipad.png
+cCpResource testforPrint/Resources/splash/Default-Landscape~ipad.png build/testforPrint.app/Default-Landscape~ipad.png
+cCpResource testforPrint/Resources/splash/Default-Portrait@2x~ipad.png build/testforPrint.app/Default-Portrait@2x~ipad.png
+cCpResource testforPrint/Resources/splash/Default-Portrait~ipad.png build/testforPrint.app/Default-Portrait~ipad.png
+cCpResource testforPrint/Resources/splash/Default@2x~iphone.png build/testforPrint.app/Default@2x~iphone.png
+cCpResource testforPrint/Resources/splash/Default~iphone.png build/testforPrint.app/Default~iphone.png
+cCpResource testforPrint/Resources/splash/Default-568h@2x~iphone.png build/testforPrint.app/Default-568h@2x~iphone.png
+cCpResource testforPrint/Resources/icons/icon-72@2x.png build/testforPrint.app/icon-72@2x.png
+cProcessPCH /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.pth testforPrint/testforPrint-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.o /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.o /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.o /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint normal i386
+cGenerateDSYMFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app.dSYM /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint
+cTouch /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051DD62C80000000000000110
+t1373463240
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000511664B000000000001EB540
+t1360422064
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000511664AE00000000000C1030
+t1360422062
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000511664AF0000000000193640
+t1360422063
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000511664AF00000000000226E0
+t1360422063
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000511664B000000000003D4DF0
+t1360422064
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000511664B00000000000215DB0
+t1360422064
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000511664B00000000000228FE0
+t1360422064
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000511664B0000000000009C590
+t1360422064
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000511664B10000000000085620
+t1360422065
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000511664B300000000003DDFA0
+t1360422067
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000511664B600000000002CFBE0
+t1360422070
+s2948064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000511664BA00000000002DBA50
+t1360422074
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000511664BC00000000000BCC20
+t1360422076
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000511664BB0000000000030EB0
+t1360422075
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000511664BC00000000001D5750
+t1360422076
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000511664BD000000000006CC50
+t1360422077
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000511664C00000000000AB6230
+t1360422080
+s11231792
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/libCordova.a
+c0000000051E52435000000000036FCC0
+t1373971509
+s3603648
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app.dSYM
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Capture.bundle
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default~iphone.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Info.plist
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/MainViewController.nib
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/PkgInfo
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/config.xml
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon-72.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon-72@2x.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon@2x.png
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/testforPrint.LinkFileList
+c0000000051E5243500000000000001E9
+t1373971509
+s489
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Script-304B58A110DAC018002A0835.sh
+c0000000051E52435000000000000051A
+t1373971509
+s1306
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m
+c0000000051E523EE00000000000013DE
+t1373971438
+s5086
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.m
+c0000000051E523EE000000000000126D
+t1373971438
+s4717
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.xib
+c0000000051E523ED0000000000001759
+t1373971437
+s5977
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/Capture.bundle
+c0000000051E523ED000000000000030E
+t1373971437
+s782
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/de.lproj/Localizable.strings
+c0000000051E523ED00000000000004BF
+t1373971437
+s1215
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/en.lproj/Localizable.strings
+c0000000051E523ED00000000000004AA
+t1373971437
+s1194
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/es.lproj/Localizable.strings
+c0000000051E523ED00000000000004B7
+t1373971437
+s1207
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon-72.png
+c0000000051E523ED0000000000001350
+t1373971437
+s4944
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon-72@2x.png
+c0000000051E523ED0000000000002DBA
+t1373971437
+s11706
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon.png
+c0000000051E523ED0000000000000F3E
+t1373971437
+s3902
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon@2x.png
+c0000000051E523ED0000000000001EBD
+t1373971437
+s7869
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/se.lproj/Localizable.strings
+c0000000051E523ED00000000000004AB
+t1373971437
+s1195
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-568h@2x~iphone.png
+c0000000051E523ED00000000000085B1
+t1373971437
+s34225
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051E523ED0000000000012DF4
+t1373971437
+s77300
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Landscape~ipad.png
+c0000000051E523ED0000000000008877
+t1373971437
+s34935
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051E523ED0000000000012B02
+t1373971437
+s76546
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Portrait~ipad.png
+c0000000051E523ED00000000000085E6
+t1373971437
+s34278
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default@2x~iphone.png
+c0000000051E523ED0000000000007323
+t1373971437
+s29475
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default~iphone.png
+c0000000051E523ED000000000000289A
+t1373971437
+s10394
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/config.xml
+c0000000051E523ED0000000000001100
+t1373971437
+s4352
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/main.m
+c0000000051E523EE000000000000045E
+t1373971438
+s1118
+
+N/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/testforPrint-Prefix.pch
+c0000000051E523EE00000000000003C9
+t1373971438
+s969
+
+N/var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.pth
+t2
+s0
+
+NtestforPrint/testforPrint-Info.plist
+c0000000051E523EE00000000000009CD
+t1373971438
+s2509
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0877d3b55b95b741^f1bad6b55b95b741^---0#1#0#--18"Check dependencies36"E97D9130-C2D6-4478-AC9A-20D180A8412B-
+
+CCompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.o /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395664313.032159
+e395664313.190167
+r1
+xCompileC
+xbuild/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.o
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m566408b95b95b741^67b930b95b95b741^-718"/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-395664313#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-395664313#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@117"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m0000000000000000^79#24#79#24#2697#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@113"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m0000000000000000^3886"CompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.o testforPrint/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-generated-files.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-own-target-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-all-target-headers.hmap -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-project-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/usr/local/lib/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/UninstalledProducts/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources/i386 -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources -F/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -include /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch -MMD -MT dependencies -MF /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.dia -c /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/AppDelegate.m -o /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/AppDelegate.o36"4195CD9E-13B2-4996-8638-2F85984B8C0B-
+
+CCompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.o /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395664313.097206
+e395664313.206439
+r1
+xCompileC
+xbuild/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.o
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.m0f0b19b95b95b741^a9d834b95b95b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.m0000000000000000^3928"CompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.o testforPrint/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-generated-files.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-own-target-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-all-target-headers.hmap -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-project-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/usr/local/lib/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/UninstalledProducts/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources/i386 -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources -F/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -include /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch -MMD -MT dependencies -MF /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.dia -c /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.m -o /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/MainViewController.o36"149B7B4D-16E2-4B8F-9096-4B36DF561224-
+
+CCompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.o /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395664313.031937
+e395664313.093630
+r1
+xCompileC
+xbuild/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.o
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/main.m605a08b95b95b741^0b0d18b95b95b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/main.m0000000000000000^3828"CompileC build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.o testforPrint/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-generated-files.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-own-target-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-all-target-headers.hmap -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-project-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/usr/local/lib/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/UninstalledProducts/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources/i386 -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources -F/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -include /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch -MMD -MT dependencies -MF /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.dia -c /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/main.m -o /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/main.o36"373B1E38-6048-4AE3-8D1C-29EA0A673692-
+
+CCompileXIB /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.xib
+s395664310.128348
+e395664312.475443
+r1
+xCompileXIB
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.xib
+o2013-07-16 16:15:11.336 Interface Builder Cocoa Touch Tool[40576:f07] CFPreferences: user home directory at file://localhost/Users/madanpiyush/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compiling /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.xib0af520b65b95b741^c0427ab85b95b741^-244"2013-07-16 16:15:11.336 Interface Builder Cocoa Touch Tool[40576:f07] CFPreferences: user home directory at file://localhost/Users/madanpiyush/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.xib0000000000000000^1014"CompileXIB testforPrint/Classes/MainViewController.xib    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/MainViewController.nib /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"EDBDAB3F-B579-4288-81CA-51A92FD51E72-
+
+CCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/de.lproj/Localizable.strings testforPrint/Resources/de.lproj/Localizable.strings
+s395664310.158637
+e395664310.169996
+r1
+xCopyStringsFile
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/de.lproj/Localizable.strings
+xtestforPrint/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy testforPrint/Resources/de.lproj/Localizable.strings0bb728b65b95b741^048f2bb65b95b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/de.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/testforPrint.app/de.lproj/Localizable.strings testforPrint/Resources/de.lproj/Localizable.strings    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/de.lproj -- testforPrint/Resources/de.lproj/Localizable.strings36"0FEC9609-B197-4062-A88D-C455527F2ADB-
+
+CCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/en.lproj/Localizable.strings testforPrint/Resources/en.lproj/Localizable.strings
+s395664310.112474
+e395664310.116621
+r1
+xCopyStringsFile
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/en.lproj/Localizable.strings
+xtestforPrint/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy testforPrint/Resources/en.lproj/Localizable.strings7ae31cb65b95b741^f3e51db65b95b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/en.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/testforPrint.app/en.lproj/Localizable.strings testforPrint/Resources/en.lproj/Localizable.strings    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/en.lproj -- testforPrint/Resources/en.lproj/Localizable.strings36"840137D2-E8E0-4797-8929-6ECFF8C3A168-
+
+CCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/es.lproj/Localizable.strings testforPrint/Resources/es.lproj/Localizable.strings
+s395664310.119474
+e395664310.157394
+r1
+xCopyStringsFile
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/es.lproj/Localizable.strings
+xtestforPrint/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy testforPrint/Resources/es.lproj/Localizable.strings2fdf1eb65b95b741^085728b65b95b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/es.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/testforPrint.app/es.lproj/Localizable.strings testforPrint/Resources/es.lproj/Localizable.strings    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/es.lproj -- testforPrint/Resources/es.lproj/Localizable.strings36"252687C4-38B8-44C4-B356-38C23A8851BB-
+
+CCopyStringsFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/se.lproj/Localizable.strings testforPrint/Resources/se.lproj/Localizable.strings
+s395664310.171258
+e395664310.179267
+r1
+xCopyStringsFile
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/se.lproj/Localizable.strings
+xtestforPrint/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy testforPrint/Resources/se.lproj/Localizable.stringsbbf02bb65b95b741^4aed2db65b95b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/se.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/testforPrint.app/se.lproj/Localizable.strings testforPrint/Resources/se.lproj/Localizable.strings    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/se.lproj -- testforPrint/Resources/se.lproj/Localizable.strings36"E519F2A1-4C17-4C04-BA73-39B9D6AAC26F-
+
+CCpResource testforPrint/Resources/Capture.bundle build/testforPrint.app/Capture.bundle
+s395664310.111899
+e395664310.127053
+r1
+xCpResource
+xtestforPrint/Resources/Capture.bundle
+xbuild/testforPrint.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/testforPrint.app/Capture.bundle2bc31cb65b95b741^be8620b65b95b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Capture.bundle000000000080d041^685"CpResource testforPrint/Resources/Capture.bundle build/testforPrint.app/Capture.bundle    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/Capture.bundle /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"47C66903-429C-4BA1-89FE-DD64AD005566-
+
+CCpResource testforPrint/Resources/icons/icon-72.png build/testforPrint.app/icon-72.png
+s395664310.101748
+e395664310.105386
+r1
+xCpResource
+xtestforPrint/Resources/icons/icon-72.png
+xbuild/testforPrint.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/testforPrint.app/icon-72.pnge61e1ab65b95b741^bbf11ab65b95b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon-72.png000000000080d041^688"CpResource testforPrint/Resources/icons/icon-72.png build/testforPrint.app/icon-72.png    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon-72.png /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"8DA88D3E-BC3C-4EF8-93D5-B9CCFA9AB4AF-
+
+CCpResource testforPrint/Resources/icons/icon-72@2x.png build/testforPrint.app/icon-72@2x.png
+s395664310.216897
+e395664310.219820
+r1
+xCpResource
+xtestforPrint/Resources/icons/icon-72@2x.png
+xbuild/testforPrint.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/testforPrint.app/icon-72@2x.pnga5a037b65b95b741^8b5438b65b95b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon-72@2x.png000000000080d041^703"CpResource "testforPrint/Resources/icons/icon-72@2x.png" "build/testforPrint.app/icon-72@2x.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon-72@2x.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"B41E5637-1D30-4BC0-A50B-EB39377E769F-
+
+CCpResource testforPrint/Resources/icons/icon.png build/testforPrint.app/icon.png
+s395664310.105785
+e395664310.110634
+r1
+xCpResource
+xtestforPrint/Resources/icons/icon.png
+xbuild/testforPrint.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/testforPrint.app/icon.pngcb2b1bb65b95b741^5b5b1cb65b95b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon.png000000000080d041^679"CpResource testforPrint/Resources/icons/icon.png build/testforPrint.app/icon.png    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon.png /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"C23617C1-319E-4FA1-8305-D3FAA2E05F29-
+
+CCpResource testforPrint/Resources/icons/icon@2x.png build/testforPrint.app/icon@2x.png
+s395664310.106311
+e395664310.110625
+r1
+xCpResource
+xtestforPrint/Resources/icons/icon@2x.png
+xbuild/testforPrint.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/testforPrint.app/icon@2x.pnga94a1bb65b95b741^ef581cb65b95b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/icon@2x.png000000000080d041^694"CpResource "testforPrint/Resources/icons/icon@2x.png" "build/testforPrint.app/icon@2x.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/icons/icon@2x.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"71B38276-8C09-427D-9394-04FB117BA9EB-
+
+CCpResource testforPrint/Resources/splash/Default-568h@2x~iphone.png build/testforPrint.app/Default-568h@2x~iphone.png
+s395664310.212458
+e395664310.215563
+r1
+xCpResource
+xtestforPrint/Resources/splash/Default-568h@2x~iphone.png
+xbuild/testforPrint.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/testforPrint.app/Default-568h@2x~iphone.png897d36b65b95b741^473e37b65b95b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-568h@2x~iphone.png000000000080d041^741"CpResource "testforPrint/Resources/splash/Default-568h@2x~iphone.png" "build/testforPrint.app/Default-568h@2x~iphone.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-568h@2x~iphone.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"EB7286B5-D9DD-4212-BB74-A0779EECF1CB-
+
+CCpResource testforPrint/Resources/splash/Default-Landscape@2x~ipad.png build/testforPrint.app/Default-Landscape@2x~ipad.png
+s395664310.181917
+e395664310.185141
+r1
+xCpResource
+xtestforPrint/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/testforPrint.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/testforPrint.app/Default-Landscape@2x~ipad.png68b32eb65b95b741^60722fb65b95b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Landscape@2x~ipad.png000000000080d041^750"CpResource "testforPrint/Resources/splash/Default-Landscape@2x~ipad.png" "build/testforPrint.app/Default-Landscape@2x~ipad.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Landscape@2x~ipad.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"096610E5-35E0-4136-A4BE-626AF99509FF-
+
+CCpResource testforPrint/Resources/splash/Default-Landscape~ipad.png build/testforPrint.app/Default-Landscape~ipad.png
+s395664310.186827
+e395664310.189905
+r1
+xCpResource
+xtestforPrint/Resources/splash/Default-Landscape~ipad.png
+xbuild/testforPrint.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/testforPrint.app/Default-Landscape~ipad.pngd4ee2fb65b95b741^15a930b65b95b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Landscape~ipad.png000000000080d041^741"CpResource "testforPrint/Resources/splash/Default-Landscape~ipad.png" "build/testforPrint.app/Default-Landscape~ipad.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Landscape~ipad.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"420E8701-08BF-4C16-B1CE-E18BF0BF8457-
+
+CCpResource testforPrint/Resources/splash/Default-Portrait@2x~ipad.png build/testforPrint.app/Default-Portrait@2x~ipad.png
+s395664310.192954
+e395664310.196061
+r1
+xCpResource
+xtestforPrint/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/testforPrint.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/testforPrint.app/Default-Portrait@2x~ipad.pngaa7e31b65b95b741^2e3d32b65b95b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Portrait@2x~ipad.png000000000080d041^747"CpResource "testforPrint/Resources/splash/Default-Portrait@2x~ipad.png" "build/testforPrint.app/Default-Portrait@2x~ipad.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Portrait@2x~ipad.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"5EAA7878-89AC-4F0C-A8E0-043B961BC263-
+
+CCpResource testforPrint/Resources/splash/Default-Portrait~ipad.png build/testforPrint.app/Default-Portrait~ipad.png
+s395664310.197353
+e395664310.202360
+r1
+xCpResource
+xtestforPrint/Resources/splash/Default-Portrait~ipad.png
+xbuild/testforPrint.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/testforPrint.app/Default-Portrait~ipad.png9d9f32b65b95b741^cfdc33b65b95b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default-Portrait~ipad.png000000000080d041^738"CpResource "testforPrint/Resources/splash/Default-Portrait~ipad.png" "build/testforPrint.app/Default-Portrait~ipad.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default-Portrait~ipad.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"F7D0743F-E999-43C3-9406-F01C1CB5A367-
+
+CCpResource testforPrint/Resources/splash/Default@2x~iphone.png build/testforPrint.app/Default@2x~iphone.png
+s395664310.203684
+e395664310.206734
+r1
+xCpResource
+xtestforPrint/Resources/splash/Default@2x~iphone.png
+xbuild/testforPrint.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/testforPrint.app/Default@2x~iphone.png7d4034b65b95b741^11ff34b65b95b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default@2x~iphone.png000000000080d041^726"CpResource "testforPrint/Resources/splash/Default@2x~iphone.png" "build/testforPrint.app/Default@2x~iphone.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default@2x~iphone.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"AB52310A-CADD-418C-959D-2B0B01D6CCD9-
+
+CCpResource testforPrint/Resources/splash/Default~iphone.png build/testforPrint.app/Default~iphone.png
+s395664310.208101
+e395664310.211189
+r1
+xCpResource
+xtestforPrint/Resources/splash/Default~iphone.png
+xbuild/testforPrint.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/testforPrint.app/Default~iphone.png245f35b65b95b741^f31b36b65b95b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Default~iphone.png000000000080d041^717"CpResource "testforPrint/Resources/splash/Default~iphone.png" "build/testforPrint.app/Default~iphone.png"    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/Resources/splash/Default~iphone.png" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"D2CD355A-F6CE-446B-96F1-B7A01C2A090F-
+
+CCpResource testforPrint/config.xml build/testforPrint.app/config.xml
+s395664310.101550
+e395664310.104619
+r1
+xCpResource
+xtestforPrint/config.xml
+xbuild/testforPrint.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/testforPrint.app/config.xmlb1171ab65b95b741^3ed01ab65b95b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/config.xml000000000080d041^653"CpResource testforPrint/config.xml build/testforPrint.app/config.xml    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/config.xml /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"6F024778-4C00-4B8D-B6A9-B40B1EE59B4B-
+
+CGenerateDSYMFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app.dSYM /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint
+s395664313.584318
+e395664313.752523
+r1
+xGenerateDSYMFile
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app.dSYM
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Generate /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app.dSYM9ab095b95b95b741^68b1c0b95b95b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app.dSYM000000000080d041^673"GenerateDSYMFile build/testforPrint.app.dSYM build/testforPrint.app/testforPrint    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint -o /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app.dSYM36"40326DAF-27CB-4A7C-A77E-6D97E01E726F-
+
+CLd /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint normal i386
+s395664313.213191
+e395664313.577419
+r1
+xLd
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrintf6b536b95b95b741^abd193b95b95b741^---0#0#0#--1921"Ld build/testforPrint.app/testforPrint normal i386    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -F/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -filelist /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/testforPrint.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/testforPrint36"16EF83F5-58D3-42CF-B6B8-038E9E1C16BC-
+
+CPhaseScriptExecution "Copy www directory" /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Script-304B58A110DAC018002A0835.sh
+s395664309.880726
+e395664310.078035
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.157s
+ouser	0m0.060s
+osys	0m0.077s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'68afe2b55b95b741^be8515b65b95b741^-42"real	0m0.157suser	0m0.060ssys	0m0.077s3(21%IDEActivityLogMessage2@14"real	0m0.157s-395664310#1#14#-0#-----2@14"user	0m0.060s-395664310#15#14#-0#-----2@13"sys	0m0.077s-395664310#29#13#-0#-----0#0#0#--21728"PhaseScriptExecution "Copy www directory" build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Script-304B58A110DAC018002A0835.sh    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER madanpiyush    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv BUILD_ROOT /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv CACHE_ROOT /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503    setenv CCHROOT /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv CONFIGURATION_TEMP_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH testforPrint.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH testforPrint.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/testforPrint.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME testforPrint.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH testforPrint.app/Executables    setenv EXECUTABLE_FOLDER_PATH testforPrint.app    setenv EXECUTABLE_NAME testforPrint    setenv EXECUTABLE_PATH testforPrint.app/testforPrint    setenv FILE_LIST /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH testforPrint.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/madanpiyush/Documents/projects/cordova-playground/test5/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME testforPrint.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER testforPrint/testforPrint-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/include\" \"/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/usr/local/lib/include\" \"/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/UninstalledProducts/include\" \"/Users/madanpiyush/Documents/projects/cordova-playground/test5/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE testforPrint/testforPrint-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH testforPrint.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH testforPrint.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/testforPrint.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER madanpiyush    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/testforPrint.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH testforPrint.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/madanpiyush/Documents/projects/cordova-playground/test5/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal/i386/testforPrint.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH testforPrint.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Objects-normal    setenv OBJROOT /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH testforPrint.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/PkgInfo    setenv PKGINFO_PATH testforPrint.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH testforPrint.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH testforPrint.app/PrivateHeaders    setenv PRODUCT_NAME testforPrint    setenv PRODUCT_SETTINGS_PATH /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/testforPrint-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT testforPrint    setenv PROJECT_DERIVED_FILE_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/DerivedSources    setenv PROJECT_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PROJECT_FILE_PATH /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint.xcodeproj    setenv PROJECT_NAME testforPrint    setenv PROJECT_TEMP_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build    setenv PROJECT_TEMP_ROOT /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv PUBLIC_HEADERS_FOLDER_PATH testforPrint.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/madanpiyush/Documents/projects/cordova-playground/test5/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH testforPrint.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH testforPrint.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH testforPrint.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv SRCROOT /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME testforPrint    setenv TARGET_BUILD_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv TARGET_NAME testforPrint    setenv TARGET_TEMP_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build    setenv TEMP_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build    setenv TEMP_FILES_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build    setenv TEMP_FILE_DIR /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build    setenv TEMP_ROOT /Users/madanpiyush/Documents/projects/cordova-playground/test5/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 503    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH testforPrint.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER madanpiyush    setenv USER_APPS_DIR /Users/madanpiyush/Applications    setenv USER_LIBRARY_DIR /Users/madanpiyush/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH testforPrint.app/version.plist    setenv VERSION_INFO_BUILDER madanpiyush    setenv VERSION_INFO_FILE testforPrint_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:testforPrint  PROJECT:testforPrint-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME testforPrint.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/Script-304B58A110DAC018002A0835.sh36"C5A35D18-3023-48DB-9BFC-48D1C7523A3D-
+
+CProcessInfoPlistFile /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Info.plist testforPrint/testforPrint-Info.plist
+s395664309.860549
+e395664309.872230
+r1
+xProcessInfoPlistFile
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Info.plist
+xtestforPrint/testforPrint-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process testforPrint/testforPrint-Info.plist8f6edcb55b95b741^2a58dfb55b95b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/testforPrint-Info.plist0000000000000000^725"ProcessInfoPlistFile build/testforPrint.app/Info.plist testforPrint/testforPrint-Info.plist    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility testforPrint/testforPrint-Info.plist -genpkginfo /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app/Info.plist36"E79A6305-A0CF-4514-94BD-729DA838579F-
+
+CProcessPCH /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.pth testforPrint/testforPrint-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395664312.485921
+e395664313.024979
+r1
+xProcessPCH
+x/var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.pth
+xtestforPrint/testforPrint-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile testforPrint/testforPrint-Prefix.pchc18d7cb85b95b741^797506b95b95b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/testforPrint-Prefix.pch0000000000000000^3814"ProcessPCH /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.pth testforPrint/testforPrint-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-generated-files.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-own-target-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-all-target-headers.hmap -iquote /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/testforPrint-project-headers.hmap -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/usr/local/lib/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/UninstalledProducts/include -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources/i386 -I/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.build/Debug-iphonesimulator/testforPrint.build/DerivedSources -F/Users/madanpiyush/Documents/projects/cordova-playground/test5/build --serialize-diagnostics /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.dia -c /Users/madanpiyush/Documents/projects/cordova-playground/test5/testforPrint/testforPrint-Prefix.pch -o /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/69/gt3nwr690nn1w50g_75q39gr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/testforPrint-Prefix-bvyphjbiyirgeabxaitwnklsalxi/testforPrint-Prefix.pch.d36"F754876C-25E5-4137-A465-901D1D51AF8E-
+
+CTouch /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app
+s395664313.760605
+e395664313.769020
+r1
+xTouch
+x/Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app96cfc2b95b95b741^96ecc4b95b95b741^---0#0#0#--436"Touch build/testforPrint.app    cd /Users/madanpiyush/Documents/projects/cordova-playground/test5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/madanpiyush/Documents/projects/cordova-playground/test5/build/testforPrint.app36"2E6AF894-2EA4-415D-8017-88E37A369111-
+

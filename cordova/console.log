@@ -1,0 +1,71 @@
+2013-07-16 16:15:26.988 testforPrint[40712:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-16 16:15:27.071 testforPrint[40712:c07] Resetting plugins due to page load.
+2013-07-16 16:15:27.149 testforPrint[40712:c07] Finished load of: file:///Users/madanpiyush/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/99BE3A8E-8CD2-4F90-904C-552131436248/testforPrint.app/www/index.html
+2013-07-16 16:15:27.195 testforPrint[40712:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-16 16:15:27.204 testforPrint[40712:c07] Received Event: deviceready
+Terminating in response to SpringBoard's termination.
+2013-07-16 16:23:42.017 testforPrint[41157:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-16 16:23:42.084 testforPrint[41157:c07] Resetting plugins due to page load.
+2013-07-16 16:23:42.149 testforPrint[41157:c07] Finished load of: file:///Users/madanpiyush/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/99BE3A8E-8CD2-4F90-904C-552131436248/testforPrint.app/www/index.html
+2013-07-16 16:23:42.181 testforPrint[41157:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-16 16:23:42.187 testforPrint[41157:c07] Received Event: deviceready
+Terminating in response to SpringBoard's termination.
+2013-07-16 16:28:13.264 testforPrint[41321:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-16 16:28:13.351 testforPrint[41321:c07] Resetting plugins due to page load.
+2013-07-16 16:28:13.415 testforPrint[41321:c07] Finished load of: file:///Users/madanpiyush/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/99BE3A8E-8CD2-4F90-904C-552131436248/testforPrint.app/www/index.html
+2013-07-16 16:28:13.454 testforPrint[41321:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-16 16:28:13.460 testforPrint[41321:c07] Received Event: deviceready
+2013-07-16 16:28:24.830 testforPrint[41321:c07] 
+This is test print from sample printing app build on cordova
+
+2013-07-16 16:28:24.830 testforPrint[41321:c07] ERROR: Plugin 'PrintPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-07-16 16:28:24.835 testforPrint[41321:c07] -[CDVCommandQueue executePending] [Line 116] FAILED pluginJSON = [
+  "INVALID",
+  "PrintPlugin",
+  "print",
+  [
+    {
+      "dialogLeftPos" : 0,
+      "dialogTopPos" : 0,
+      "printHTML" : "\nThis is test print from sample printing app build on cordova\n\n",
+      "fail" : "window.plugins.PrintPlugin.callbackMap.print0.fail",
+      "success" : "window.plugins.PrintPlugin.callbackMap.print0.success"
+    }
+  ]
+]
+Terminating in response to SpringBoard's termination.
+2013-07-16 16:36:56.188 testforPrint[42006:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-16 16:36:56.269 testforPrint[42006:c07] Resetting plugins due to page load.
+2013-07-16 16:36:56.327 testforPrint[42006:c07] Finished load of: file:///Users/madanpiyush/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/99BE3A8E-8CD2-4F90-904C-552131436248/testforPrint.app/www/index.html
+2013-07-16 16:36:56.383 testforPrint[42006:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-16 16:36:56.394 testforPrint[42006:c07] Received Event: deviceready
+2013-07-16 16:37:02.691 testforPrint[42006:c07] 
+This is test print from sample printing app build on cordova
+
+2013-07-16 16:37:02.692 testforPrint[42006:c07] ERROR: Plugin 'PrintPlugin' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2013-07-16 16:37:02.695 testforPrint[42006:c07] -[CDVCommandQueue executePending] [Line 116] FAILED pluginJSON = [
+  "INVALID",
+  "PrintPlugin",
+  "print",
+  [
+    {
+      "dialogLeftPos" : 0,
+      "dialogTopPos" : 0,
+      "printHTML" : "\nThis is test print from sample printing app build on cordova\n\n",
+      "fail" : "window.plugins.PrintPlugin.callbackMap.print0.fail",
+      "success" : "window.plugins.PrintPlugin.callbackMap.print0.success"
+    }
+  ]
+]
+Terminating in response to SpringBoard's termination.
+2013-07-16 16:44:39.735 testforPrint[42653:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-16 16:44:39.830 testforPrint[42653:c07] Resetting plugins due to page load.
+2013-07-16 16:44:39.897 testforPrint[42653:c07] Finished load of: file:///Users/madanpiyush/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/99BE3A8E-8CD2-4F90-904C-552131436248/testforPrint.app/www/index.html
+2013-07-16 16:44:39.927 testforPrint[42653:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-16 16:44:39.933 testforPrint[42653:c07] Received Event: deviceready
+2013-07-16 16:44:45.358 testforPrint[42653:c07] 
+This is test print from sample printing app build on cordova
+
+2013-07-16 16:45:06.254 testforPrint[42653:c07] 
+This is test print from sample printing app build on cordova
+
